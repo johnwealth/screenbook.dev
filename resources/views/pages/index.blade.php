@@ -215,16 +215,16 @@
             
             <div id="testimonial" class="owl-carousel owl-theme text-center">
                 <div class="testimonial"  data-scroll-reveal="enter from the bottom after 0.3s">
-                    <p>Quisque est enim lacinia lobortis da viverra interdum, quam. In sagittis, eros faucibus ullamcorper nibh dolor</p>
-                    <h1> DANIEL Smith </h1>
+                    <p>With what I have seen on the Screenbook.ng's App, I believe that it is a must have for all students preparing for JAMB.</p>
+                    <h1> AWOLOLA DAVID </h1>
                 </div>
                 <div class="testimonial">
-                    <p>A dsfadsfads In sagittis, eros faucibus ullamcorper nibh dolor</p>
-                    <h1> DANIEL Smith </h1>
+                    <p>One only needs to use the hard copy JAMB past question to understand that it is filled with errors and incorrect answers. Great content and features make the Screenbook.ng's App unique.</p>
+                    <h1> OLAGBAJU PETER </h1>
                 </div>
                 <div class="testimonial">
-                    <p>Quisque est enim lacinia lobortis da viverra interdum, quam. In sagittis, eros faucibus ullamcorper nibh dolor</p>
-                    <h1> DANIEL Smith </h1>
+                    <p>In one statement, Screenbook.ng is the best.</p>
+                    <h1> Ogunmiluyi Ifeoluwa </h1>
                 </div>
                 </div>
             </div><!-- end #testimonial -->
