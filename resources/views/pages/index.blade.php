@@ -1,7 +1,8 @@
 @extends('layouts.app')
 @section('title', 'Home')
-@section('content')
 
+
+@section('header')
 <div class="animationload"><div class="loader">Loading...</div></div> <!-- End Preloader -->
     
     <section id="home" class="sliderwrapper clearfix">
@@ -24,7 +25,7 @@
                             data-speed="1000"
                             data-start="500"
                             data-easing="Back.easeInOut"
-                            data-endspeed="300"><hr class="topline"><h2>Do You Want to "Jam" JAMB <br>at One Sitting?</h2><hr class="bottomline">
+                            data-endspeed="300"><hr class="topline"><h2>Do You Want to "Jam" <br>JAMB at One Sitting?</h2><hr class="bottomline">
                         </div>
     
                         <!-- LAYER NR. 4 -->
@@ -115,9 +116,9 @@
             </div>
 		</div>
     </section><!-- end slider-wrapper -->  
-         
+    @endsection     
    
-	
+@section('content')	
 	 <section id="features" class="feature-wrapper">
      <div class="container">
   <div data-scroll-reveal="enter from the bottom after 0.3s" class="title text-center" data-scroll-reveal-id="2" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true">
@@ -134,7 +135,7 @@
                         <div class="service-border"><i class="fa fa-pencil-square-o alignleft"></i></div>
                         <h3>JAMB Q & A</h3>
                         <p>Access thousands of JAMB </br>
-                        question with detailed and simplified answers.</p>
+                        questions with detailed and simplified answers.</p>
                     </div>
                 </div>
             
@@ -142,8 +143,8 @@
                     <div class="service-box">
                         <div class="service-border"><i class="fa fa-car alignleft"></i></div>
                         <h3>Practice on the go!</h3>
-                        <p>Prep everywhere even when </br>
-                        you are on the toilet slab.</p>
+                        <p>Prep everywhere, even when </br>
+                        you are on the toilet bowl!</p>
                     </div>
                 </div>
             
@@ -151,8 +152,8 @@
                     <div class="service-box">
                         <div class="service-border"><i class="fa fa-clock-o alignleft"></i></div>
                         <h3>Set your time</h3>
-                        <p>Time yourself as you practice</br>
-                              JAMB is just 2hrs exam</p>
+                        <p>Time yourself as you practice.</br>
+                              JAMB is just a 2hour exam.</p>
                     </div>
                 </div>
             </div> <!-- end row 1 -->
@@ -163,7 +164,7 @@
                         <div class="service-border"><i class="fa fa-gamepad alignleft"></i></div>
                         <h3>Personalize Your study</h3>
                         <p>You can practice topically or</br>
-                        yearly which    ever way you like it.</p>
+                        yearly which ever way you like it.</p>
                     </div>
                 </div>
             
@@ -172,7 +173,7 @@
                         <div class="service-border"><i class="fa fa-trophy alignleft"></i></div>
                         <h3>Challenge yourself</h3>
                         <p>Join the weekly challenge,</br>
-                         beat other to the top.</p>
+                         beat others to the top.</p>
                     </div>
                 </div>
             </b>
@@ -182,7 +183,7 @@
                         <div class="service-border"><i class="fa fa-mobile alignleft"></i></div>
                         <h3>Screen TRYBE</h3>
                         <p>Join the Screen Trybe,</br>
-                          Don't go archaic!.</p>
+                          don't be left out!</p>
                     </div>
                 </div>
                 <p><a class="jtbtn" href="#">TRY IT FOR FREE</a></p>
@@ -215,15 +216,15 @@
             
             <div id="testimonial" class="owl-carousel owl-theme text-center">
                 <div class="testimonial"  data-scroll-reveal="enter from the bottom after 0.3s">
-                    <p>With what I have seen on the Screenbook.ng's App, I believe that it is a must have for all students preparing for JAMB.</p>
+                    <h4><i>With what I have seen on the Screenbook.ng's App, I believe that it is a "must have" for all students preparing for UTME.</i></h4>
                     <h1> AWOLOLA DAVID </h1>
                 </div>
                 <div class="testimonial">
-                    <p>One only needs to use the hard copy JAMB past question to understand that it is filled with errors and incorrect answers. Great content and features make the Screenbook.ng's App unique.</p>
+                    <h4><i>One only needs to use the hard copy JAMB past questions to know that they are filled with errors and incorrect answers.<br>...Great content and features make the Screenbook.ng's App unique.</i></h4>
                     <h1> OLAGBAJU PETER </h1>
                 </div>
                 <div class="testimonial">
-                    <p>In one statement, Screenbook.ng is the best.</p>
+                    <h4><i>In one statement, Screenbook.ng is the best!</i></h4>
                     <h1> Ogunmiluyi Ifeoluwa </h1>
                 </div>
                 </div>
@@ -242,7 +243,7 @@
                  
                      <div class="general-title text-center">
                      <div class="title">
-                    <h2>Patners</h2>
+                    <h2>Partners</h2>
                     <hr>
                     </div>
                 </div>

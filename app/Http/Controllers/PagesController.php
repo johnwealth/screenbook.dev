@@ -79,7 +79,7 @@ class PagesController extends Controller
 
      public function blog()
     {
-            $posts = Post::simplePaginate(3);
+            $posts = Post::orderBy('created_at', 'desc')->simplePaginate(10);
         return view('post.blog')->withPosts($posts);
     }
 
@@ -140,7 +140,7 @@ class PagesController extends Controller
 
       \Mail::send('emails.contact', $data , function($message) use ($data){
           $message->from( $data['email']);
-          $message->to('johnwealth.ise@gmail.com');
+          $message->to('screenbooktutoring@gmail.com');
           $message->subject($data['subject']);
       });
 

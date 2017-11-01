@@ -1,30 +1,28 @@
 @extends('layouts.app')
 @section('title', 'Blog')
-@section('content')
-@include('partials.blogcss')
-<section id="home" class="sliderwrapper clearfix">
-    
-       <div class="tp-banner-container">
-         
-            <div class="tp-dottedoverlay twoxtwo"></div>
-            <section id="contact" class="contact-wrapper">
-                <div class="title text-center">
-                <h2>SCREENBOOK.NG BLOG</h2>
-                <h5><p>Education Information Orientation Entertainment</p></h5>
-               </div>
+
+
+
+ @section('header')
+ @include('partials.blogcss')
+    <header class="masthead" style="background-image: url('img/home-bg.jpg')">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 col-md-offset-2 mx-auto">
+            <div class="site-heading">
+              <h2>Screenbook.ng</h2>
+              <hr class ="small">
+              <span class="subheading">Blog Posts</span>
             </div>
+          </div>
         </div>
-    </section> 
+      </div>
+    </header>
+   @stop
          
-  
-   <section id="features" >
-  <div  class="title text-center" >
-            <h2>blog Posts</h2>
-            <hr>
-        </div>
-    </div>
-    </section>        
-    <!--/ SERVICE SECTION -->   
+        
+    <!--/ SERVICE SECTION --> 
+    @section('content')  
     <section >
     <div class="blog" id="blog">   
         <div class="container">
@@ -43,7 +41,7 @@
             </a>
             <p class="post-meta">Posted by
               <a href="#">{{ $post->author->name }}</a>
-              {{Date('F, nS Y g:i A', strtotime($post->created_at))}}</p>
+              {{Date('F, dS Y g:i A', strtotime($post->created_at))}}</p>
             <hr>
             </div>
              @endforeach
@@ -67,5 +65,5 @@
    </div>
 </section><!--/ Video Parallex  End --> 
 @include('partials.blogscr') 
- @endsection
+@endsection
     

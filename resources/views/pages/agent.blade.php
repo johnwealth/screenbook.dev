@@ -67,10 +67,10 @@
                               <div class="accordion-inner">
                               <ul>
                                 <li>Life is about purpose</li>
-                                <li>Get the opportunity to influence young minds positively</li>
+                                <p>Get the opportunity to influence young minds positively</p>
 
                                 <li> Many times, network is the X – factor</li> 
-                                <li>Join a team of talented Nigerians who are making a difference</li>
+                                <p>Join a team of talented Nigerians who are making a difference</p>
 
                                 <li> You are not working for free</li>
                                 <p>Earn a bonus up to 15× what the telecommunication companies pay recharge card vendors</p>
@@ -92,7 +92,7 @@
                                 <li> An android phone</li>
                                    <li>A functional bank account</li>
                                    <li>An ATM card</li>
-                                   <li>A valid ID card</li>
+                                
                               </ul>
                               </div>
                             </div>

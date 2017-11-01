@@ -13,10 +13,10 @@
                     </div><!-- end navbar-header -->
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a data-scroll href="{{('/')}}" class="int-collapse-menu">Home</a></li>
+                        <li><a data-scroll href="{{('/')}}" class="int-collapse-menu">Home</a></li>
                          <li><a data-scroll href="{{('/about')}}" class="int-collapse-menu">About</a></li>
-                         <li><a data-scroll href="{{('/contact')}}" class="int-collapse-menu">Contact</a></li>
-                        <li><a href="{{('/blog')}}">Blog</a></li>
+                        <li><a data-scroll href="{{('/blog')}}" class="int-collapse-menu">Blog</a></li>
+                        <li><a data-scroll href="{{('/contact')}}" class="int-collapse-menu">Contact</a></li>
                           <!--   <li class="active"><a data-scroll href="#download" class="int-collapse-menu">Download</a></li> -->
                          <!--  <li><a data-scroll href="#services" class="int-collapse-menu">Services</a></li> -->
                          <!--   <li><a data-scroll href="{{('/video')}}" class="int-collapse-menu">Video Aids</a></li>

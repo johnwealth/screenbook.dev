@@ -1,32 +1,31 @@
 @extends('layouts.app')
 @section('title', 'Contact')
-@section('content')
+
     
-    <section id="home" class="sliderwrapper clearfix">
-    
-       <div class="tp-banner-container">
-         
-            <div class="tp-dottedoverlay twoxtwo">
-            <img src="#"></div>
-                    <section id="contact" class="contact-wrapper">
-                  <div class="title text-center">
-                <h2>Contact Us</h2>
-                <p>Want to work with us? Get in touch!</p>
-                <hr>
-               </div>
+@section('header')
+ @include('partials.blogcss')
+    <header class="masthead" style="background-image: url('img/contact.png')">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 col-md-offset-2 mx-auto">
+            <div class="page-heading">
+              <h1>Contact Us</h1>
+              <span class="subheading">Want to work with us? get in touch.</span>
             </div>
+          </div>
         </div>
-    </section><!-- end slider-wrapper -->  
-         
+      </div>
+    </header>
+   @stop         
    
-    
+    @section('content')
      <section id="features" class="feature-wrapper">
      <div class="container">
   <div data-scroll-reveal="enter from the bottom after 0.3s" class="title text-center" data-scroll-reveal-id="2" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true">
                   <div class="contact_tab text-center">
                     <ul id="myTab" class="container text-center nav nav-tabs" role="tablist">
                         <li class="active"><a href="#tab1" role="tab" data-toggle="tab">Contact Details</a></li>
-                        <li><a href="#tab2" role="tab" data-toggle="tab">Location Maps</a></li>
+                        <li><a href="#" role="tab" data-toggle="tab">Location Maps</a></li>
                     </ul>
            <div id="myTabContent" class="tab-content">
                     <div class="tab-pane fade in active" id="tab1">
@@ -84,7 +83,7 @@
                     <div class="contact-box" data-scroll-reveal="enter from the bottom after 0.6s">
                         <a title="" href="#"><i class="fa fa-map-marker
                          aligncenter"></i></a>
-                        <h2>362 Peridot fuel Station <br/>Isheri Lagos, Nigeria</h2>
+                        <h2>362, Peridot fuel Station, <br/>Isheri-Olofin, Lagos, Nigeria.</h2>
                     </div>
                 </div>
         

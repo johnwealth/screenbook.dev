@@ -11,8 +11,8 @@
                         <a href="{{ url('https://www.instagram.com/ScreenBook.Ng/')}}"><i class="fa fa-instagram"></i></a>
                     </div>
     <hr />
-  <div class="row">
-    <div class="col-lg-12">
+  <div class="row link text-center">
+    <div class="col-lg-12 ">
       <div class="col-md-3">
         <ul>
           <li><a href="{{('/')}}">Home</a></li>
@@ -33,7 +33,7 @@
       </div>
       <div class="col-md-3">
         <ul>
-          <li>362 Peridot fuel Station <br/>Isheri Lagos, Nigeria</li>
+          <li>362, Peridot fuel Station, <br/>Isheri-Olofin, Lagos, Nigeria.</li>
           <li>(+234) 0813-618-1285 </li>
         </ul>
       </div>  

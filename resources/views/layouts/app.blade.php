@@ -20,6 +20,8 @@
     <div id="app">
         
         @include('partials.nav')
+        
+           @yield('header')
 
            @yield('content')
 

@@ -12,10 +12,11 @@ use App\Comment;
 
 class BlogController extends Controller
 {
+    
+
     public function index(){
 
-    	$posts = Post::simplePaginate(3);
-    	return view('pages.index')->withPosts($posts);
+
     }
 
 /*
